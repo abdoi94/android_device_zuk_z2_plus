@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_z2_plus.mk
+    $(LOCAL_DIR)/aosip_z2_plus.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_z2_plus-user \
+    aosip_z2_plus-userdebug \
+    aosip_z2_plus-eng 
